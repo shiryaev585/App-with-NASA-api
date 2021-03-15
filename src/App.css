@@ -1,0 +1,80 @@
+.App {
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+header {
+  background-color: #34495E;
+  color: #fff;
+  padding: 50px;
+}
+
+.header__wrapper {
+  margin: 0 auto;
+  width: 450px;
+}
+
+h1 {
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+
+input,
+button {
+  display: block;
+  margin: 50px auto 0;
+  outline: none;
+  width: 100%;
+  border: none;
+}
+
+input {
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  font-size: 20px;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #00D8FF;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 10px 0px rgba(50, 50, 50, 0.77);
+}
+
+button:hover {
+  background-color: #fff;
+  color: #222;
+}
+
+button:active {
+  background-color: #00D8FF;
+  color: #fff;
+}
+
+.nasaPictureWrapper {
+  width: 75%;
+  margin: 50px auto;
+}
+
+img {
+  box-shadow: 2px 2px 10px 0px rgba(50, 50, 50, 0.77);
+}
+
+p {
+  margin-top: 50px;
+  font-size: 18px;
+  letter-spacing: 0.05rem;
+}
