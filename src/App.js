@@ -2,7 +2,6 @@ import { useState } from "react";
 import { connect } from "react-redux";
 import "./App.css";
 import { getApod } from "./actions/index";
-import video from "./assets/bg-galaxy.mp4";
 
 function App(props) {
   const [date, setDate] = useState("");
